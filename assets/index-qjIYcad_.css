@@ -10,3 +10,8 @@
 .cases__tab:hover .ta-moon{animation:.7s cubic-bezier(.2,.9,.3,1.2) both ta-moon,3s ease-in-out .7s infinite ta-moon-rock}
 @keyframes ta-moon{to{opacity:1;translate:0 0;rotate:0deg}}
 @keyframes ta-moon-rock{0%,100%{opacity:1;translate:0 0;rotate:0deg}50%{opacity:1;translate:0 -2px;rotate:-8deg}}
+.ghl-form{width:100%;min-width:0}
+.endcard{grid-template-columns:minmax(0,1fr) minmax(0,380px);max-width:860px}
+@media (width<=809px){.endcard{grid-template-columns:minmax(0,1fr)}}
+.endmodal .endcard{max-height:calc(100dvh - 40px);overflow-y:auto}
+.endcard.endcard--inline{grid-template-columns:minmax(0,1fr);gap:20px}
