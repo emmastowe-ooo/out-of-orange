@@ -21,3 +21,4 @@
 .person-card__photo{width:240px;height:240px;border-radius:50%;margin:28px auto 0}
 .person-card__photo img{width:100%;height:100%;object-fit:cover;object-position:top}
 @media (width>=810px){.founders__chip--b{left:-56px;top:20px}}
+@media (width>=810px){.stat-row:has(>:nth-child(4)){grid-template-columns:repeat(4,1fr);gap:24px}.stat-row:has(>:nth-child(4)) .stat-card__value{font-size:clamp(40px,4.4vw,64px)}}
