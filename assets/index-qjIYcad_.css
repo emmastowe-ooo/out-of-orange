@@ -15,3 +15,4 @@
 @media (width<=809px){.endcard{grid-template-columns:minmax(0,1fr)}}
 .endmodal .endcard{max-height:calc(100dvh - 40px);overflow-y:auto}
 .endcard.endcard--inline{grid-template-columns:minmax(0,1fr);gap:20px}
+.book__contact{margin-top:20px;text-align:center}.book__contact a{color:var(--orange-dark,#d94f00);text-decoration:underline}
