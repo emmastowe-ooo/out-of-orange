@@ -16,3 +16,8 @@
 .endmodal .endcard{max-height:calc(100dvh - 40px);overflow-y:auto}
 .endcard.endcard--inline{grid-template-columns:minmax(0,1fr);gap:20px}
 .book__contact{margin-top:20px;text-align:center}.book__contact a{color:var(--orange-dark,#d94f00);text-decoration:underline}
+.founders__chip--b{right:auto;left:0}
+@media (width>=810px){.phero .stat-row{grid-template-columns:repeat(4,1fr);gap:28px}.phero .stat-row .stat-card__value{font-size:64px}}
+.person-card__photo{width:240px;height:240px;border-radius:50%;margin:28px auto 0}
+.person-card__photo img{width:100%;height:100%;object-fit:cover;object-position:top}
+@media (width>=810px){.founders__chip--b{left:-56px;top:20px}}
